@@ -5,10 +5,20 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "git": "npm run build && git add . && git commit -m",
+    "postgit": "git push && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
+    "@inrupt/solid-client": "^1.8.1",
+    "@inrupt/solid-client-authn-browser": "^1.8.1",
+    "@inrupt/solid-client-notifications": "^0.1.0",
+    "@inrupt/vocab-common-rdf": "^0.7.4",
+    "@inrupt/vocab-inrupt-common": "^0.7.4",
+    "@inrupt/vocab-solid-common": "^0.7.4",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
+    "jsonld": "^5.2.0",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",

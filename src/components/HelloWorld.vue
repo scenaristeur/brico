@@ -1,6 +1,20 @@
 <template>
-  <div class="hello">
+  <div class="container">
     <h1>{{ msg }}</h1>
+
+    <div v-if="pod != null">
+      Bienvenu(e) {{pod.name}}<br>
+      <small>{{pod}}</small>
+    </div>
+    <Login />
+
+    <Actor webId="https://bricodeurs.solidweb.org/profile/card#me" />
+
+
+
+
+
+
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -36,8 +50,21 @@
 <script>
 export default {
   name: 'HelloWorld',
+  components :  {
+    //'Resource' :  () => import ( '@/components/storage/Resource' ),
+    'Login': () => import('@/components/solid/Login'),
+    'Actor': () => import('@/views/Actor'),
+    //  'Profile': () => import('@/components/solid/Profile'),
+    // 'Tags': () => import('@/components/social/Tags')
+  },
   props: {
     msg: String
+  },
+  computed:{
+    pod:{
+      get () { return this.$store.state.solid.pod},
+      set (/*value*/) { /*this.updateTodo(value)*/ }
+    },
   }
 }
 </script>
