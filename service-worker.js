@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/brico/precache-manifest.c613d6c67d23959fb469cd1c079e3660.js"
+  "/brico/precache-manifest.23fafd51e85061bd5a3122be1cb0865b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "brico"});

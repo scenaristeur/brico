@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a25a961918ed73c634d4",
+    "revision": "cba95b159c919e32aaa2",
     "url": "/brico/css/app.9689e1d5.css"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brico/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "aa183669b224625561eda83ff07036a5",
+    "revision": "b6357481b5b17fad07193f3444508b8f",
     "url": "/brico/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brico/js/about.9da0b9dc.js"
   },
   {
-    "revision": "a25a961918ed73c634d4",
-    "url": "/brico/js/app.968b937f.js"
+    "revision": "cba95b159c919e32aaa2",
+    "url": "/brico/js/app.cfcb1cde.js"
   },
   {
     "revision": "f2e48fbba8c1fce166eb",
