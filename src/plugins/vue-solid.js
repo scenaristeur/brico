@@ -41,7 +41,7 @@ const plugin = {
         await sc.login({
           oidcIssuer: issuer,
           redirectUrl: window.location.href,
-          clientName: "Vatch",
+          clientName: "Brico",
         });
       } catch(e){
         alert(e)
